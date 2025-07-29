@@ -1,0 +1,18 @@
+# number = int(input("enter a number")) 
+# if number % 2 == 0:
+#     print(f"{number} is even")
+# else:
+#     print(f"{number} is odd")
+    
+
+num=input("enter num1")
+num2=input("enter num2")
+
+if num.isnumeric()==False:
+    print("num1 is not a number")
+elif num2.isnumeric()==False:
+    print("num2 is not a number")
+else:
+        res=int(num)+int(num2)
+print(str(res))
+
